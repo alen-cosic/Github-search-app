@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: #01d3fdc5;
+  font-weight: 700;
+}
+
+input {
+  display: flex;
+  margin: 0 auto;
+  border: 0;
+  border-bottom: 2px solid #1976d2;
+  margin-top: 2rem;
+  font-size: 20px;
+  line-height: 35px;
+  height: 60px;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+  color: #01d3fdc5;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #1976d2;
+}
+
+button {
+  display: flex;
+  margin: 0 auto;
+  box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  background: linear-gradient(to bottom, #0d5dad 5%, #01d3fdc5 100%);
+  background-color: #79bbff;
+  border-radius: 6px;
+  border: 1px solid #84bbf3;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #01d3fdc5 5%, #0d5dad 100%);
+  background-color: #01d3fdc5;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.name_avatar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+.name {
+  background: transparent;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.location_bio {
+  color: white;
+  text-align: center;
+}
+
+.repo_items {
+  background: transparent;
+}
+
+.repo_lista {
+  height: 200px;
+  width: 35%;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background: transparent;
+  color: white;
+  font-style: italic;
+}
